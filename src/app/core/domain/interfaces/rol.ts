@@ -1,4 +1,4 @@
-import {Audit} from '../../interfaces/audit';
+import { Audit } from '../../interfaces/audit';
 
 export interface Rol extends Audit {
   rolId: number;

@@ -1,4 +1,4 @@
-import {Audit} from '../../interfaces/audit';
+import { Audit } from '../../interfaces/audit';
 
 export interface TemperatureMeter extends Audit {
   temperatureMeterId: number;

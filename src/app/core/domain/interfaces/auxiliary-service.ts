@@ -1,5 +1,5 @@
 import { AuxiliaryServiceDet } from './auxiliary-service-det';
-import {Audit} from '../../interfaces/audit';
+import { Audit } from '../../interfaces/audit';
 
 export interface AuxiliaryService extends Audit {
   auxiliaryServiceId: number;
