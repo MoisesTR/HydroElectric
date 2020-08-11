@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="947" viewBox="0 0 1600 947">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.001" y1="0.48" x2="0.448" y2="0.48" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1fceff"/>
+      <stop offset="1" stop-color="#1593ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.401" y1="-0.478" x2="0.714" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.588"/>
+      <stop offset="1" stop-color="#1388ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.98" y1="0.517" x2="0.028" y2="0.458" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1fceff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1593ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.251" y1="0.579" x2="1.144" y2="0.622" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1fceff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1600" height="947"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1600" height="947" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1600" height="950" fill="#1388ff"/>
+    <rect id="Rectangle_216" data-name="Rectangle 216" width="702" height="215" rx="107.5" transform="matrix(0.407, -0.914, 0.914, 0.407, -331.81, 767.004)" fill="#fff" opacity="0.1"/>
+    <rect id="Rectangle_217" data-name="Rectangle 217" width="663" height="240" rx="120" transform="matrix(0.407, -0.914, 0.914, 0.407, -264.446, 852.851)" opacity="0.65" fill="url(#linear-gradient)"/>
+    <path id="Path_103" data-name="Path 103" d="M644.651-75.44,347.024,599.747h822.655l297.627-701.591Z" opacity="0.21" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_219" data-name="Rectangle 219" width="294" height="142" rx="71" transform="matrix(0.407, -0.914, 0.914, 0.407, 1405.805, 720.6)" opacity="0.77" fill="url(#linear-gradient-3)"/>
+    <rect id="Rectangle_218" data-name="Rectangle 218" width="961" height="346" rx="173" transform="matrix(0.407, -0.914, 0.914, 0.407, 1052.806, 844.06)" opacity="0.28" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

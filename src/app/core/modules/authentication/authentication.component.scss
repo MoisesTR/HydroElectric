@@ -1,0 +1,36 @@
+@import '../../../../assets/scss/colors-he.scss';
+
+@media (min-width: 768px) {
+  .h-md-100 {
+    height: 100vh;
+  }
+}
+
+.u-green-color__login {
+  background-color: $green-color;
+}
+
+.u-text-green-color__login {
+  color: $green-color;
+}
+
+.u-card-rounded__login {
+  border-radius: 0.75rem !important;
+  -moz-border-radius: 0.75rem !important;
+}
+
+.u-background-white-space__login {
+  background: url('../../../../assets/img/background.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.u-background-blue__login {
+  background: url('../../../../assets/img/bg-blue.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
