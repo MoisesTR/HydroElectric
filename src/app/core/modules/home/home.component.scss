@@ -1,0 +1,36 @@
+@import '../../../../assets/scss/colors-he.scss';
+
+.sidenav-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
+    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
+  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
+    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
+  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
+    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
+  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
+    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
+  background-size: cover !important;
+}
+
+.u-blue-color--user {
+  background-color: $blue-primary-color !important;
+}
+
+.black-dregadate--user {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.img-circular--user {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-circular--user img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
