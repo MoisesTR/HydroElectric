@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MDBBootstrapModulesPro, MDBSpinningPreloader } from 'ng-uikit-pro-standard';
@@ -9,7 +10,14 @@ import { AuthenticationModule } from './core/modules/authentication/authenticati
 
 @NgModule({
   declarations: [AppComponent, NotFoundComponent],
-  imports: [BrowserModule, MDBBootstrapModulesPro.forRoot(), AppRoutingModule, AuthenticationModule, HomeModule],
+  imports: [
+    BrowserModule,
+    MDBBootstrapModulesPro.forRoot(),
+    AppRoutingModule,
+    AuthenticationModule,
+    HomeModule,
+    BrowserAnimationsModule,
+  ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
 })
