@@ -1,14 +1,14 @@
 @import '../../../../assets/scss/colors-he.scss';
 
 .sidenav-bg {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
-    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
-  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
-    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
-  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
-    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
-  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(84, 163, 255, 0.4)),
-    url('../../../../assets/img/bg-blue.svg') no-repeat center center !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(84, 163, 255, 0.9)),
+    url('../../../../assets/img/sidenav-3.png') no-repeat center center !important;
+  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(84, 163, 255, 0.9)),
+    url('../../../../assets/img/sidenav-3.png') no-repeat center center !important;
+  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(84, 163, 255, 0.9)),
+    url('../../../../assets/img/sidenav-3.png') no-repeat center center !important;
+  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(84, 163, 255, 0.9)),
+    url('../../../../assets/img/sidenav-3.png') no-repeat center center !important;
   background-size: cover !important;
 }
 
@@ -33,4 +33,8 @@
   width: auto;
   height: 100%;
   margin-left: -50px;
+}
+
+::ng-deep .navbar-color nav {
+  background-color: $blue-primary-color;
 }
